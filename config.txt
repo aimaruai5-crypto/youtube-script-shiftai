@@ -1,11 +1,45 @@
+# ============================================================
 # ShiftAI チャンネル設定ファイル
-# このファイルを編集することでURLを変更できます（スキル本体の変更不要）
+# このファイルのURLを書き換えるだけで別チャンネルに対応できます
+# スキル本体（skill.md）の変更は不要です
+# ============================================================
 
+# ── スプレッドシート ─────────────────────────────────────────
+
+# 企画管理スプレッドシート
+# 動画の企画一覧が入っているシート。テーマ案・文字起こしURL等をここから取得します。
 PLANNING_SHEET=https://docs.google.com/spreadsheets/d/1O4ydQcTkZsvIA4STKF9ZZpTVNOXuaij_e-F7qJWxWdo/edit?gid=766246461#gid=766246461
+
+# プレゼント特典管理スプレッドシート
+# LINE登録特典のキーワード・特典名・リンクが入っているシート。訴求文の生成に使います。
 PRESENT_SHEET=https://docs.google.com/spreadsheets/d/1mgHqED-2FYJTYex1aaAe8fUvyNhFuQ4qc7L7H-zg338/edit?gid=0#gid=0
+
+# ── Google Docsプロンプト・設定 ──────────────────────────────
+
+# チャンネル設定ドキュメント
+# チャンネルの基本情報（ターゲット・トーン・フォーマット等）が書かれた設定ファイル。
+# 台本生成時の前提知識としてClaude に読み込ませます。
 CHANNEL_CONFIG=https://docs.google.com/document/d/e/2PACX-1vSJJ556IUIwQG8hhAYhmVErHTyeoewy_UvTrazEnUwwYzvrnDMAR-ojENHH5TAovYhMwmz-BSzLTJBr/pub
+
+# 設計書生成プロンプト
+# 企画情報・文字起こしを入力として、タイトル案・サムネ案・企画意図などの「設計書」を
+# 生成するためのプロンプトが書かれたドキュメント。
 DESIGN_PROMPT=https://docs.google.com/document/d/e/2PACX-1vRcpFZEx4lD4ylj_DHPKl_wPeCT7X3KjrLFewV4YVk0wLb9Qsg8tXJloZwL9hUHP-gVnDEiWN5Yoaz8/pub
+
+# 台本生成プロンプト
+# 設計書をもとに台本本文（6000文字程度）を生成するためのプロンプト。
+# 訴求（CTA）はこの段階では挿入しません。
 SCRIPT_PROMPT=https://docs.google.com/document/d/e/2PACX-1vR96wtLpIgCAinzzyG9ID_2x2--Mut-EO2VL_Hngy2QZxUX5RZyLpQPIgmO7Zq_r9PIoM_52rw0baKg/pub
+
+# 台本評価プロンプト（評価①）
+# 生成した台本を100点満点で採点するプロンプト。
+# 75点以上になるまで修正ループを繰り返します。
 EVAL_PROMPT=https://docs.google.com/document/d/e/2PACX-1vSyT1aoGcuixOD_Hjfan0bTn1hUtbsvYPB11p9vx1K1hJr7RGWTuj8wM7CY6JNesChfo7oWM4H7Aol-/pub
+
+# 追加プロンプト①
+# 評価ループ通過後に台本へ追加で適用するプロンプト（スタイル調整・品質強化など）。
 ADDITIONAL_PROMPT_1=https://docs.google.com/document/d/e/2PACX-1vT747TSluu_Oe49H-xmNXksJE433Np_6T3eWiJOkxlNUmvXFEmxgrzsxpSYx8sQEoA1J8GgyT0Ksudh/pub
+
+# 追加プロンプト②
+# 追加プロンプト①の次に適用するプロンプト（さらなるスタイル調整・最終仕上げなど）。
 ADDITIONAL_PROMPT_2=https://docs.google.com/document/d/e/2PACX-1vR2ef5H1dfimmu9bqWBIhGnTahh0Rz2aihCvxAvzIdmyCnT2LqNG5mJp-FRKFjcL3acrLVdwu3MkSA1/pub
