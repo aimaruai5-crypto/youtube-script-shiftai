@@ -1,0 +1,11 @@
+# ShiftAI チャンネル設定ファイル
+# このファイルを編集することでURLを変更できます（スキル本体の変更不要）
+
+PLANNING_SHEET=https://docs.google.com/spreadsheets/d/1O4ydQcTkZsvIA4STKF9ZZpTVNOXuaij_e-F7qJWxWdo/edit?gid=766246461#gid=766246461
+PRESENT_SHEET=https://docs.google.com/spreadsheets/d/1mgHqED-2FYJTYex1aaAe8fUvyNhFuQ4qc7L7H-zg338/edit?gid=0#gid=0
+CHANNEL_CONFIG=https://docs.google.com/document/d/e/2PACX-1vSJJ556IUIwQG8hhAYhmVErHTyeoewy_UvTrazEnUwwYzvrnDMAR-ojENHH5TAovYhMwmz-BSzLTJBr/pub
+DESIGN_PROMPT=https://docs.google.com/document/d/e/2PACX-1vRcpFZEx4lD4ylj_DHPKl_wPeCT7X3KjrLFewV4YVk0wLb9Qsg8tXJloZwL9hUHP-gVnDEiWN5Yoaz8/pub
+SCRIPT_PROMPT=https://docs.google.com/document/d/e/2PACX-1vR96wtLpIgCAinzzyG9ID_2x2--Mut-EO2VL_Hngy2QZxUX5RZyLpQPIgmO7Zq_r9PIoM_52rw0baKg/pub
+EVAL_PROMPT=https://docs.google.com/document/d/e/2PACX-1vSyT1aoGcuixOD_Hjfan0bTn1hUtbsvYPB11p9vx1K1hJr7RGWTuj8wM7CY6JNesChfo7oWM4H7Aol-/pub
+ADDITIONAL_PROMPT_1=https://docs.google.com/document/d/e/2PACX-1vT747TSluu_Oe49H-xmNXksJE433Np_6T3eWiJOkxlNUmvXFEmxgrzsxpSYx8sQEoA1J8GgyT0Ksudh/pub
+ADDITIONAL_PROMPT_2=https://docs.google.com/document/d/e/2PACX-1vR2ef5H1dfimmu9bqWBIhGnTahh0Rz2aihCvxAvzIdmyCnT2LqNG5mJp-FRKFjcL3acrLVdwu3MkSA1/pub

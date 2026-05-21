@@ -1,0 +1,8 @@
+{
+  "name": "youtube-script-shiftai",
+  "version": "1.0.0",
+  "description": "ShiftAI チャンネル専用・YouTube動画台本の一気通貫生成パイプライン。URLはconfig.txtで管理。",
+  "skills": [
+    "skills/youtube-script-shiftai"
+  ]
+}
